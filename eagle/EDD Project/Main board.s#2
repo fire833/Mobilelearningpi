@@ -20162,6 +20162,72 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="132.08" y1="81.28" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="GPIO28" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="28"/>
+<wire x1="15.24" y1="-27.94" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-27.94" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="29"/>
+<wire x1="134.62" y1="58.42" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO29" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="30"/>
+<wire x1="15.24" y1="-33.02" x2="7.62" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-33.02" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="58.42" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="81.28" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="30"/>
+<wire x1="134.62" y1="81.28" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO30" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="34"/>
+<wire x1="15.24" y1="-43.18" x2="7.62" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-43.18" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="31"/>
+<wire x1="137.16" y1="58.42" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO31" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="36"/>
+<wire x1="15.24" y1="-48.26" x2="7.62" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-48.26" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="58.42" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="32"/>
+<wire x1="137.16" y1="81.28" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO32" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="46"/>
+<wire x1="15.24" y1="-73.66" x2="7.62" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-73.66" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="33"/>
+<wire x1="139.7" y1="58.42" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO33" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="48"/>
+<wire x1="15.24" y1="-78.74" x2="7.62" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-78.74" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="58.42" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="34"/>
+<wire x1="139.7" y1="81.28" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

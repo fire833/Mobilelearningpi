@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -19197,8 +19197,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="SUPPLY4" gate="1" x="198.12" y="-193.04" smashed="yes">
 <attribute name="VALUE" x="195.58" y="-195.58" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY5" gate="1" x="99.06" y="-182.88" smashed="yes" rot="R270">
-<attribute name="VALUE" x="96.52" y="-180.34" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY5" gate="1" x="33.02" y="-182.88" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.48" y="-180.34" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC2" gate="G$1" x="139.7" y="-233.68" smashed="yes">
 <attribute name="NAME" x="138.24" y="-230.3" size="1.778" layer="95"/>
@@ -19298,7 +19298,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="MICROUSB" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY5" gate="1" pin="GND"/>
-<wire x1="109.22" y1="-182.88" x2="101.6" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-182.88" x2="35.56" y2="-182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="1" pin="GND"/>

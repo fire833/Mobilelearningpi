@@ -19252,8 +19252,8 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="95.885" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="152.4" y="62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY11" gate="1" x="10.16" y="53.34" smashed="yes" rot="R180">
-<attribute name="VALUE" x="12.7" y="55.88" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY11" gate="1" x="10.16" y="50.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="12.7" y="53.34" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+1" gate="1" x="213.36" y="-152.4" smashed="yes" rot="R270">
 <attribute name="VALUE" x="208.28" y="-149.86" size="1.778" layer="96"/>
@@ -19267,8 +19267,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="ETHCONNECTOR" gate="A" x="-182.88" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="-188.1886" y="60.0456" size="2.0828" layer="95" ratio="6" rot="SR90"/>
 </instance>
-<instance part="ETHCONNECTOR" gate="B" x="-167.64" y="-119.38" smashed="yes">
-<attribute name="NAME" x="-148.2344" y="-114.0714" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<instance part="ETHCONNECTOR" gate="B" x="-165.1" y="-119.38" smashed="yes">
+<attribute name="NAME" x="-145.6944" y="-114.0714" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -19418,7 +19418,7 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="10.16" y="40.64"/>
 <pinref part="SUPPLY11" gate="1" pin="GND"/>
 <wire x1="10.16" y1="40.64" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="45.72" x2="10.16" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="45.72" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <junction x="10.16" y="45.72"/>
 <wire x1="71.12" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
@@ -19669,7 +19669,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="GPIO0" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="3"/>
 <wire x1="15.24" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
@@ -19679,7 +19679,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="99.06" y1="60.96" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="GPIO1" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="5"/>
 <wire x1="15.24" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
@@ -19699,7 +19699,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="7.62" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="GPIO3" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="11"/>
 <wire x1="15.24" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
@@ -19711,14 +19711,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="101.6" y1="81.28" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="GPIO4" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="7.62" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="55.88" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="GPIO5" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="17"/>
 <wire x1="15.24" y1="0" x2="7.62" y2="0" width="0.1524" layer="91"/>
@@ -19730,7 +19730,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="104.14" y1="81.28" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="GPIO6" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="21"/>
 <wire x1="15.24" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="91"/>
@@ -19740,7 +19740,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="106.68" y1="55.88" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="GPIO7" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="23"/>
 <wire x1="15.24" y1="-15.24" x2="7.62" y2="-15.24" width="0.1524" layer="91"/>
@@ -19752,7 +19752,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="106.68" y1="81.28" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="GPIO8" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="27"/>
 <wire x1="15.24" y1="-25.4" x2="7.62" y2="-25.4" width="0.1524" layer="91"/>
@@ -19762,7 +19762,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="109.22" y1="55.88" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="GPIO9" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="29"/>
 <wire x1="15.24" y1="-30.48" x2="7.62" y2="-30.48" width="0.1524" layer="91"/>
@@ -19782,7 +19782,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="7.62" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="GPIO11" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="35"/>
 <wire x1="15.24" y1="-45.72" x2="7.62" y2="-45.72" width="0.1524" layer="91"/>
@@ -19862,14 +19862,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="203.2" y1="-152.4" x2="210.82" y2="-152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="GPIO12" class="0">
 <segment>
 <wire x1="7.62" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="13"/>
 <wire x1="114.3" y1="55.88" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="GPIO13" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="47"/>
 <wire x1="15.24" y1="-76.2" x2="7.62" y2="-76.2" width="0.1524" layer="91"/>
@@ -19881,7 +19881,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="114.3" y1="81.28" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="GPIO2" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="15"/>
 <wire x1="15.24" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
@@ -19891,7 +19891,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="101.6" y1="55.88" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="GPIO10" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="45"/>
 <wire x1="15.24" y1="-71.12" x2="7.62" y2="-71.12" width="0.1524" layer="91"/>
